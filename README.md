@@ -1,4 +1,4 @@
-a lichen dreams (again)
+## a lichen dreams (again)
 
 Story installation based on extensive hikes and inspired by the ecology of Sørøya, Finnmark, Norway.
 
