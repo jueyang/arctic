@@ -95,13 +95,3 @@ img {
 	width:inherit;
 	opacity:0.3;
 }
-.day {
-	padding:10%;
-}
-.day ul li {
-	padding-right:5%;
-}
-.day ul li p {
-	font-size:0.95em;
-	margin:0;
-}
