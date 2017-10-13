@@ -48,9 +48,17 @@ table {
 
 body * {
   box-sizing: border-box;
+  color:#444;
 }
-h1,h2 {
-	font-family:'Roboto Condensed', sans-serif;
+h1,h2,h2 a {
+	font-family:'Codystar', serif;
+	color:#bebebe;
+}
+h1 {
+	font-size:2.2em;
+}
+h2 {
+	text-align:center;
 }
 p,a,li {
 	font-family:'EB Garamond',serif;
@@ -86,12 +94,28 @@ iframe {
 img {
 	width:100%;
 }
+footer {
+	padding:60px 0 80px;
+}
 .words {
 	margin:0 25%;
 	position:relative;
 }
-.fog li {
+.beginning {
+	width:10%;
+}
+.beginning li,
+.fog li{
 	position:absolute;
 	width:inherit;
 	opacity:0.3;
+}
+.beginning li {
+	opacity:0.6;
+}
+.beginning li:first-child {
+	margin-left:-10px;
+}
+.beginning li:last-child {
+	margin-left:10px;
 }
